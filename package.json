@@ -1,7 +1,7 @@
 {
-  "name": "dingdingbot-node-api",
+  "name": "dinding-notice-test",
   "version": "1.0.0",
-  "description": "测试钉钉机器人",
+  "description": "钉钉消息测试",
   "main": "index.js",
   "scripts": {
     "start": "nodemon",

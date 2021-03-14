@@ -4,7 +4,7 @@ class DingDingHelper {
   secret: string
   url: string
   token: string
-  constructor(opts) {
+  constructor(opts: { secret: string; token: string }) {
     this.secret = opts.secret
     this.token = opts.token
     this.url = `https://oapi.dingtalk.com/robot/send?access_token=${this.token}`
@@ -17,7 +17,7 @@ class DingDingHelper {
     console.log(result)
     return { dateNow, result }
   }
-  sendMessage = (text, desp) => {
+  sendMessage = (text: string, desp: string) => {
     const { result, dateNow } = this.generateSign(this.secret)
     const targetUrl = `${this.url}&timestamp=${dateNow}&sign=${result}`
     console.log(targetUrl)
