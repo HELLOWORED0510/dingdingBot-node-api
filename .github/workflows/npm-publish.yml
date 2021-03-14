@@ -8,14 +8,10 @@ jobs:
     name: npm-publish
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          path: main
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: '14'
       - run: npm install
       - run: npm run build
       - name: Publish to npm
