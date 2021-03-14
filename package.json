@@ -1,5 +1,5 @@
 {
-  "name": "dinding-notice-test",
+  "name": "@yjk0510/dingding-helper",
   "version": "1.0.0",
   "description": "钉钉消息测试",
   "main": "index.js",
