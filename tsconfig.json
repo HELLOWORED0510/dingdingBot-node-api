@@ -2,15 +2,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
-    "emitDeclarationOnly": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
     "sourceMap": false,
+    "declarationDir": "./types",
     "outDir": "./dist",
-    "baseUrl": "./",
-    "declarationDir": "./types"
+    "baseUrl": "./"
   },
   "exclude": ["node_modules", "types"]
   // "include": ["ormconfig.json"]
