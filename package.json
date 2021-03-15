@@ -1,6 +1,6 @@
 {
   "name": "@yjk0510/dingding-helper",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "钉钉消息测试",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
@@ -33,7 +33,7 @@
     "axios": "^0.19.2"
   },
   "files": [
-    "dist/*",
+    "dist",
     "types/*"
   ]
 }
