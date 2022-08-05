@@ -17,5 +17,5 @@ jobs:
       - run: npm run build
       - run: npm publish --access public
         env: # More info about the environment variables in the README
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
+          GITHUB_TOKEN: ${{ secrets.G_TOKEN }} # Leave this as is, it's automatically generated
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
