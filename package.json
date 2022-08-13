@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/yinjikai/dingdingBot-node-api/issues"
   },
-  "type": "module",
   "homepage": "https://github.com/yinjikai/dingdingBot-node-api#readme",
   "devDependencies": {
     "@types/axios": "^0.14.0",
